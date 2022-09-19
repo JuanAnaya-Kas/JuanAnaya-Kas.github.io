@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApiTest</title>
+</head>
+<H2>PruebaApi</H2>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        var settings = {
+            "url": "https://mingle-ionapi.inforcloudsuite.com/DZXMZUMBNMRW6J23_TST/CustomerApi/V3/poke/pokemon",
+            "method": "GET",
+            "timeout": 0,
+            "headers": {
+                "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkluZm9yQWNjZXNzVG9rZW5TaWduaW5nQ2VydGlmaWNhdGUtMTU3NjkxMTAyMyJ9.eyJzY29wZSI6IiIsImNsaWVudF9pZCI6IkRaWE1aVU1CTk1SVzZKMjNfVFNUfm1DZC1DZW03YmYtYUR0M0tnVXlVbnVnMnVMUWlzRzA3TnRCTjdsQk1VbFEiLCJncmFudF9pZCI6ImNtRW94SzBjMTZLZU4zTTZpdmkzSnlISkRXT3BEaE9UIiwiaXNzIjoiaHR0cHM6Ly9taW5nbGUtc3NvLmluZm9yY2xvdWRzdWl0ZS5jb20iLCJhdWQiOiJodHRwczovL21pbmdsZS1pb25hcGkuaW5mb3JjbG91ZHN1aXRlLmNvbSIsImp0aSI6Ik1EWVVHZzBISHJqSElGUDZrcWNrR1U4V3VlN1dqa2FqdnVibSIsIlNlcnZpY2VBY2NvdW50IjoiRFpYTVpVTUJOTVJXNkoyM19UU1Qjc2lQUG42VnZNaXFXbTUyMDM3azBmdFFIcEN2OW9PMmd4QXlEc2VCQU44ME9zekQ0QWUtbmRHUk1FUFpFdFJwYnhlVVZVMm9BUzUzUlkxWFQzSnpNS2ciLCJUZW5hbnQiOiJEWlhNWlVNQk5NUlc2SjIzX1RTVCIsIkVuZm9yY2VTY29wZXNGb3JDbGllbnQiOiIxIiwiZXhwIjoxNjYzNTQ3NTY0fQ.VLxemKxAl6mPDGKME6Sh-SkMd-ixkq_tqmCobed_zjkPPkdOTd7wxLZz3Zt2MjPnYOS4ejHSguX-WkjySHyarNdHk60Gn1f0hQoGATbUziO4RkOvsq4CPGVmCkG-CfIBuaokQKFrL_4fLz-E3066FWq4IL0fqxq5-doDBG06s8zg4q_l77-uTlGlkQJYeC2tH-JZZNcqCeE-yOQcORzXkL6-DkgAO1jfVeZERnMdfj04krRkmarEOJss3YR6QFip2tk0jqE4mSZw_pVmhtirGWVDHGmX-9OE8fNxXbqXym4trqVi2Pd6bwKPtrEj_z5Oh5hl39kgcfPPS-TMhP1xZA"
+            },
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
+    </script>
+</body>
+
+</html>
